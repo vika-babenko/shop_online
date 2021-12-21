@@ -4,7 +4,7 @@ import Cart from '../views/Cart.vue'
 
 const routes = [
   {path: '/', name:'Home', component: Home},
-  {path: '/', name:'Cart', component: Cart}
+  {path: '/cart', name:'Cart', component: Cart}
 ]
 
 const router = createRouter({
